@@ -9,8 +9,8 @@ import static ui.UIMenu.*;
 
 public class Main {
     public static void main(String[] args) {
-        //showMenu();
-        Patient patient = new Patient("Paul", "paulmrg461@gmail.com");
+        showMenu();
+        /*Patient patient = new Patient("Paul", "paulmrg461@gmail.com");
 
         Doctor doctor = new Doctor("Emilio", "hetortolo@gmail.com");
         doctor.addAvailableAppointment(new Date(), "4pm");
@@ -34,11 +34,11 @@ public class Main {
 
             }
         };
-        /*for (Doctor.AvailableAppointment availableAppointment : doctor.getAvailableAppointments()) {
+        for (Doctor.AvailableAppointment availableAppointment : doctor.getAvailableAppointments()) {
             System.out.println(availableAppointment.getDate() + " " + availableAppointment.getTime());
-        }*/
+        }
         System.out.println(doctor);
 
-        System.out.println(patient);
+        System.out.println(patient);*/
     }
 }
